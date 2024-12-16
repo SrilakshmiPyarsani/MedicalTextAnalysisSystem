@@ -35,23 +35,15 @@ Frameworks & Libraries
 Languages
 •	Python
 ________________________________________
-## Installation
+# 🛠️ Setup Instructions
 
-### Prerequisites
-1. **Python 3.9+**
-2. **Install Required Libraries**  
-   Run the following command to install all required libraries:
-   ```bash
-   pip install -r requirements.txt
+## Clone the Repository
+Run the following commands to clone the repository and navigate to the project directory:
 
-   Google Cloud Translation API
+```bash
+git clone https://github.com/SATHEESH-MEADI/MediText-Summarizer.git
+cd medi-text-summarizer
 
-Set up an API key from Google Cloud Console.
-Replace the placeholder API key in the script with your own.
-Ollama Server
-
-Install and configure Ollama from Ollama's website.
-Ensure it is running locally and update the port in the code if necessary.
 
 ________________________________________
 Dataset
