@@ -35,31 +35,32 @@ Frameworks & Libraries
 Languages
 •	Python
 ________________________________________
-# 🛠️ Setup Instructions
+ ### 🛠️ Setup Instructions  
 
-## Clone the Repository
-Run the following commands to clone the repository and navigate to the project directory:
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/SATHEESH-MEADI/MediText-Summarizer.git
+   cd medi-text-summarizer
+   ```
 
-```bash
-git clone https://github.com/SATHEESH-MEADI/MediText-Summarizer.git
-cd medi-text-summarizer
+2. **Install Required Libraries**  
+   ```bash
+   pip install streamlit transformers nltk pymupdf requests plotly torch pandas google-generativeai openai
+   ```
 
+3. **Run the Application**  
+   ```bash
+   streamlit run app.py
+   ```
+
+4. **Configure API Keys**  
+   - Add your Google Cloud API key in the code (`API_KEY` field).  
+   - Ensure Ollama's local server is running for chatbot functionality.  
+
+---
 
 ________________________________________
-Dataset
-The dataset, sourced from https://github.com/JohnSnowLabs, contains 1,000 text files focusing on various medical conditions.
-________________________________________
-Key Highlights
-•	Privacy-Centric: The Q&A module runs locally using the Ollama server to ensure data privacy.
-•	Scalable Design: Handles large datasets efficiently with chunk-based text processing.
-•	Global Accessibility: Supports multilingual translation for non-English-speaking users.
-________________________________________
-Future Enhancements
-•	Text-to-Speech (TTS): Integrating TTS models to deliver audio summaries.
-•	Avatar-Based Interaction: Adding a virtual assistant for enhanced engagement.
-•	Expanded Multilingual Q&A: Supporting multi-language queries and responses.
-________________________________________
-Credits
+### Credits
 This project was developed as part of DATA 690 - Introduction to NLP at the University of Maryland Baltimore County (UMBC) under the mentorship of Dr. Antony Diana.
 
 Team Members:
@@ -69,17 +70,13 @@ Team Members:
 •	Nishanth Hanmanthureddygari
 ________________________________________
 License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. 
 ________________________________________
 Connect
-We’d love your feedback! Feel free to raise issues, fork the project, or connect with us on 
+We’d love your feedback! Feel free to raise issues, fork the project, or connect with us
 
 📚 LinkedIn: https://www.linkedin.com/in/srilakshmi-pyarsani
 
 📧 Email: Srilakp1@umbc.edu
-
-
-
-________________________________________
 
 
