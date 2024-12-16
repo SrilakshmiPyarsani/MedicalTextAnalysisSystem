@@ -35,28 +35,23 @@ Frameworks & Libraries
 Languages
 •	Python
 ________________________________________
-Installation
-Prerequisites
-1.	Python 3.9+
-2.	Install required libraries:
-bash
-Copy code
-pip install -r requirements.txt
-3.	Google Cloud Translation API:
-o	Set up an API key and replace the placeholder in the script.
-4.	Ollama Server:
-o	Install and configure Ollama from Ollama's website.
-o	Ensure it is running locally and update the port in the code.
-Running the Application
-1.	Clone the repository:
-bash
-Copy code
-git clone 
-cd medical-text-analysis-system
-2.	Start the Streamlit application:
-bash
-Copy code
-streamlit run app.py
+## Installation
+
+### Prerequisites
+1. **Python 3.9+**
+2. **Install Required Libraries**  
+   Run the following command to install all required libraries:
+   ```bash
+   pip install -r requirements.txt
+
+   Google Cloud Translation API
+
+Set up an API key from Google Cloud Console.
+Replace the placeholder API key in the script with your own.
+Ollama Server
+
+Install and configure Ollama from Ollama's website.
+Ensure it is running locally and update the port in the code if necessary.
 
 ________________________________________
 Dataset
