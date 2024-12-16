@@ -75,8 +75,8 @@ ________________________________________
 Credits
 This project was developed as part of DATA 690 - Introduction to NLP at the University of Maryland Baltimore County (UMBC) under the mentorship of Dr. Antony Diana.
 Team Members:
-•	Nishanth Hanmanthureddygari
 •	Satheesh Meadi
+•	Nishanth Hanmanthureddygari
 ________________________________________
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
