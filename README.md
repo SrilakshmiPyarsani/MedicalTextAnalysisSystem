@@ -60,7 +60,7 @@ streamlit run app.py
 
 ________________________________________
 Dataset
-The dataset, sourced from JohnSnowLabs, contains 1,000 text files focusing on various medical conditions.
+The dataset, sourced from https://github.com/JohnSnowLabs, contains 1,000 text files focusing on various medical conditions.
 ________________________________________
 Key Highlights
 •	Privacy-Centric: The Q&A module runs locally using the Ollama server to ensure data privacy.
@@ -79,11 +79,15 @@ Team Members:
 •	Nishanth Hanmanthureddygari
 ________________________________________
 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License.
 ________________________________________
 Connect
-We’d love your feedback! Feel free to raise issues, fork the project, or connect with us on LinkedIn:
-Your LinkedIn Profile
+We’d love your feedback! Feel free to raise issues, fork the project, or connect with us on 
+📚 LinkedIn: https://www.linkedin.com/in/srilakshmi-pyarsani
+📧 Email: Srilakp1@umbc.edu
+
+
+
 ________________________________________
 
 
